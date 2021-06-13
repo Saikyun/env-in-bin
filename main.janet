@@ -4,6 +4,6 @@
 
 (defn main
   [& args]
-  (print (curenv))
+  (pp ((curenv) 'sub/hi)) ### this prints nil from binary
   (print sub/hi)
   (sub/hi))
