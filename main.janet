@@ -4,4 +4,6 @@
 
 (defn main
   [& args]
+  (print (curenv))
+  (print sub/hi)
   (sub/hi))
